@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AssignmentOne">
-        <activity android:name=".ImageShow"></activity>
+        <activity android:name=".LessonActivity"></activity>
+        <activity android:name=".VideoActivity" />
+        <activity android:name=".ImageShow" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

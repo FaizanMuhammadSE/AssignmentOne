@@ -5,14 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-
-import com.google.android.material.button.MaterialButtonToggleGroup;
-
-import java.sql.Time;
 
 public class ImageShow extends AppCompatActivity {
 
@@ -102,11 +97,15 @@ public class ImageShow extends AppCompatActivity {
 
 
     public void playLesson(View view){
-
+        Intent intent=new Intent(this,LessonActivity.class);
+        intent.putExtra("alphabet",getIntent().getStringExtra("ClickedAlphabet"));
+        startActivity(intent);
     }
 
     public void playVideo(View view){
-
+           Intent intent=new Intent(this,VideoActivity.class);
+           intent.putExtra("alphabet",getIntent().getStringExtra("ClickedAlphabet"));
+           startActivity(intent);
     }
 
 
