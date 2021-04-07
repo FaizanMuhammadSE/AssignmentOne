@@ -14,8 +14,8 @@ public class ImageShow extends AppCompatActivity {
 
     //just declare variables there, dont initialize them with views data, coz activity starts from onCreate method
     int getImages[]={R.drawable.a,R.drawable.b,R.drawable.c,R.drawable.d,R.drawable.e,R.drawable.f,R.drawable.g,R.drawable.h,R.drawable.i,R.drawable.j,R.drawable.k,R.drawable.l,R.drawable.m,R.drawable.n,R.drawable.o,R.drawable.p,R.drawable.q,R.drawable.r,R.drawable.s,R.drawable.t,R.drawable.u,R.drawable.v,R.drawable.w,R.drawable.x,R.drawable.y,R.drawable.z};
-    double start[]={8, 21.5, 31,39};
-    double end[]={21.5, 31, 38,48};
+    double start[]={8, 21.5, 31,39,49,56,66,73,83,90,100,107,116,122,132,139,150,158,167,174,183.5,190,199.75,206,215.5,222};
+
     char alphabet;
     MediaPlayer mp;
     ImageView im;
