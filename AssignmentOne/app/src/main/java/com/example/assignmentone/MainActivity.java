@@ -40,4 +40,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+    public void fullCourse(View view) {
+           Intent intent=new Intent(this,VideoActivity.class);
+           intent.putExtra("alphabet","[");
+           startActivity(intent);
+    }
 }
